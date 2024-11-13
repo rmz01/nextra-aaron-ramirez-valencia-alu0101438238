@@ -1,11 +1,11 @@
 export default {
-  logo: <span>Mi Sitio Nextra</span>,
+  logo: <span>Nextra Surfpage</span>,
   project: {
-    link: 'https://github.com/ULL-ESIT-DMSI-2425/nextra-alejandro-melian-lemes-alu0101443126'
+    link: 'https://github.com/ULL-ESIT-DMSI-2425/nextra-aaron-ramirez-valencia-alu0101438238'
   },
-  docsRepositoryBase: 'https://github.com/ULL-ESIT-DMSI-2425/nextra-alejandro-melian-lemes-alu0101443126',
+  docsRepositoryBase: 'https://github.com/ULL-ESIT-DMSI-2425/nextra-aaron-ramirez-valencia-alu0101438238',
   footer: {
-    text: '© 2023 Mi Proyecto'
+    text: 'Surfpage'
   },
   readMore: 'Read More →',
   postFooter: null,
