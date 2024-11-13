@@ -1,0 +1,52 @@
+---
+title: Extensiones de Código
+description: Ejemplo de cómo utilizar extensiones de código en Nextra.
+date: 2024-11-10
+tags:
+  - Nextra
+  - Next.js
+  - Code Extensions
+---
+
+# Extensiones de Código
+
+En este post, vamos a explorar cómo utilizar extensiones de código en Nextra para mejorar la presentación de nuestro contenido.
+
+## Ejemplo de Código
+
+Aquí tienes un ejemplo de cómo mostrar código en diferentes lenguajes:
+
+```js filename="demo.js" copy {3} showLineNumbers
+let a = 1;
+
+console.log(a);
+```
+
+Ahora un ejemplo de expresión regular
+
+```js /useState/ filename="prueba.js" copy showLineNumbers
+import { useState } from 'react'
+ 
+function Counter() {
+  const [count, setCount] = useState(0)
+  return <button onClick={() => setCount(count + 1)}>{count}</button>
+}
+``` 
+
+ANSI Highlight
+
+```ansi filename="ansi.txt" copy showLineNumbers
+[0m [0;32m✓[0m [0;2msrc/[0mindex[0;2m.test.ts (1)[0m
+  [0;2m Test Files [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m      Tests [0m [0;1;32m1 passed[0;98m (1)[0m
+  [0;2m   Start at [0m 23:32:41
+  [0;2m   Duration [0m 11ms
+  [42;1;39;0m PASS [0;32m Waiting for file changes...[0m
+         [0;2mpress [0;1mh[0;2m to show help, press [0;1mq[0;2m to quit
+```
+
+npm2yarn
+
+```sh npm2yarn
+npm i -D @graphql-eslint/eslint-plugin
+```
