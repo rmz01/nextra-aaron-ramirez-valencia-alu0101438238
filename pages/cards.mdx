@@ -1,0 +1,22 @@
+import { Cards } from 'nextra/components'
+import { CardsIcon, OneIcon, WarningIcon, BoxIcon } from '../components/icons'
+
+# Example Cards
+
+<Cards>
+  <Cards.Card
+    icon={<WarningIcon />}
+    title="Callout"
+    href="/docs/guide/built-ins/callout"
+  />
+  <Cards.Card
+    icon={<CardsIcon />}
+    title="Tabs"
+    href="/docs/guide/built-ins/tabs"
+  />
+  <Cards.Card
+    icon={<OneIcon />}
+    title="Steps"
+    href="/docs/guide/built-ins/steps"
+  />
+</Cards>

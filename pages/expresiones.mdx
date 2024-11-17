@@ -1,0 +1,33 @@
+---
+title: "Expression Evaluation"
+description: "An example of evaluating expressions in MDX"
+date: "2024-10-05"
+---
+
+import { useState } from 'react'
+
+# Expression Evaluation
+
+This example demonstrates how to evaluate expressions in MDX.
+
+## Example
+
+```js filename="demo.js" copy {3} showLineNumbers
+Current year - {new Date().getFullYear()}
+ 
+🧑‍💻 JavaScript expressions {2 * Math.PI}
+```
+
+Current year - {new Date().getFullYear()}
+ 
+🧑‍💻 JavaScript expressions {2 * Math.PI}
+
+```js filename="demo2.js" copy {3} showLineNumbers
+export const  author = 'John Doe'
+ 
+The author is **{ author }**
+```
+
+export const  author = 'John Doe'
+ 
+The author is **{ author }**
