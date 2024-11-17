@@ -2,3 +2,5 @@
 
 
 Cards da error
+Has an example of Next.js middleware usage
+Uses getStaticProps to make a fetch at build time
