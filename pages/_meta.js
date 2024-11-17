@@ -14,5 +14,8 @@ export default {
     surf: 'Ejemplo de bleed con surf',
     callout: 'Ejemplo de callout con surf',
     code: 'Ejemplo de code extension',
-    expresiones: 'Evaluar expresiones'
+    expresiones: 'Evaluar expresiones',
+    filetrees: 'Ejemplo de filetrees',
+    cards: 'Ejemplo de cards',
+    mdimport: 'Importar markdown'
   }
