@@ -17,5 +17,7 @@ export default {
     expresiones: 'Evaluar expresiones',
     filetrees: 'Ejemplo de filetrees',
     cards: 'Ejemplo de cards',
-    mdimport: 'Importar markdown'
+    mdimport: 'Importar markdown',
+    useswr: 'Ejemplo de uso de useSWR',
+    config: 'Ejemplo de UseConfig'
   }
