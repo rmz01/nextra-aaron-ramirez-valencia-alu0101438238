@@ -9,6 +9,6 @@ export const authOptions = {
     }),
   ],
   // add more options here
-}
+};
 
 export default NextAuth(authOptions)
